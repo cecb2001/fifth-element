@@ -15,16 +15,17 @@ export function PhotoGrid({ photos, onPhotoClick }: PhotoGridProps) {
           key={photo}
           type="button"
           onClick={() => onPhotoClick(index)}
-          className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-[--color-surface-raised] focus:outline-none focus-visible:ring-2 focus-visible:ring-[--color-accent] focus-visible:ring-offset-2 focus-visible:ring-offset-[--color-surface]"
+          className="group overflow-hidden rounded-lg bg-[--color-surface-raised] focus:outline-none focus-visible:ring-2 focus-visible:ring-[--color-accent] focus-visible:ring-offset-2 focus-visible:ring-offset-[--color-surface]"
         >
-          <Image
-            src={photo}
-            alt={`Photo ${index + 1}`}
-            fill
-            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 16vw"
-            className="object-contain transition-all duration-500 group-hover:scale-105 group-hover:brightness-110"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          <div className="relative aspect-[4/3] bg-gradient-to-b from-[#e8e4e0] to-[#c8c4bf] flex items-center justify-center">
+            <Image
+              src={photo}
+              alt={`Photo ${index + 1}`}
+              fill
+              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 16vw"
+              className="object-contain transition-all duration-500 group-hover:scale-105 group-hover:brightness-110"
+            />
+          </div>
         </button>
       ))}
     </div>

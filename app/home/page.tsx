@@ -7,16 +7,18 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center">
-      <section className="relative w-full h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+      <section className="relative w-full">
         <Image
           src="/photos/ui/class.jpg"
           alt="B Batch Class Photo"
-          fill
-          className="object-cover opacity-30"
+          width={749}
+          height={352}
+          className="w-full h-auto opacity-30"
+          sizes="100vw"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[--color-surface]/60 via-transparent to-[--color-surface]" />
-        <div className="relative z-10 text-center px-6 animate-fade-up">
+        <div className="absolute inset-0 bg-gradient-to-b from-[--color-surface]/40 via-[--color-surface]/60 to-[--color-surface]" />
+        <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-6 animate-fade-up">
           <h1 className="font-[family-name:var(--font-display)] text-5xl md:text-7xl lg:text-8xl font-bold text-gradient tracking-tight mb-4">
             Fifth Elements
           </h1>

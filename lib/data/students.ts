@@ -261,7 +261,7 @@ export const students: Student[] = [
   {
     id: "priyat",
     displayName: "PRIYA T.",
-    passportPhoto: "/photos/passport/priya-1copy.jpg",
+    passportPhoto: "/photos/passport/priya-t.jpg",
     portraitPhoto: "/photos/portraits/priyat.jpg",
     dob: "18th Jan, 1980",
     house: "Thapasya",

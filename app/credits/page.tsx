@@ -10,14 +10,14 @@ export default function CreditsPage() {
       <div className="overflow-x-auto pb-4 mb-14 -mx-6 px-6">
         <div className="flex gap-3" style={{ width: "max-content" }}>
           {creditsPhotos.map((photo, i) => (
-            <div key={i} className="rounded-xl overflow-hidden border border-[--color-border-subtle] flex-shrink-0 group bg-[--color-surface-raised]">
+            <div key={i} className="rounded-xl border border-[--color-border-subtle] flex-shrink-0 group bg-[--color-surface-raised]">
               <Image
                 src={photo}
                 alt={`Makers photo ${i + 1}`}
-                width={300}
-                height={225}
-                className="object-contain transition-transform duration-500 group-hover:scale-105"
-                sizes="300px"
+                width={400}
+                height={300}
+                className="w-auto h-48 md:h-56 object-contain rounded-xl"
+                sizes="400px"
               />
             </div>
           ))}

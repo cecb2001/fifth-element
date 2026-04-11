@@ -29,13 +29,13 @@ export default async function StudentProfilePage({ params }: { params: Promise<{
       <SectionHeader title={student.displayName} backHref="/classmates" backLabel="All Classmates" />
 
       <div className="card-glow overflow-hidden">
-        <div className="bg-[--color-surface] flex justify-center">
+        <div className="bg-[--color-surface]">
           <Image
             src={student.portraitPhoto}
             alt={student.displayName}
             width={423}
             height={265}
-            className="object-contain max-h-[400px] w-auto"
+            className="w-full h-auto"
             sizes="(max-width: 768px) 100vw, 672px"
             priority
           />
