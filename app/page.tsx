@@ -426,7 +426,7 @@ export default function SilverJubileePage() {
               opacity: 0,
             }}
           >
-            The roots grew deep. The branches, far.
+            The roots grew deep.<br />The branches, far.
           </p>
         </section>
 

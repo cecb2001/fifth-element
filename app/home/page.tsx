@@ -19,18 +19,18 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[--color-surface]/40 via-[--color-surface]/60 to-[--color-surface]" />
         <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-6 animate-fade-up">
-          <h1 className="font-[family-name:var(--font-display)] text-5xl md:text-7xl lg:text-8xl font-bold text-gradient tracking-tight mb-4">
+          <h1 className="font-[family-name:var(--font-display)] font-bold text-gradient tracking-tight mb-4" style={{ fontSize: "clamp(1.75rem, 8vw, 6rem)" }}>
             Fifth Elements
           </h1>
-          <p className="text-lg md:text-xl text-[--color-text-secondary] mb-2 tracking-widest uppercase text-sm">
+          <p className="text-xs sm:text-sm md:text-base text-[--color-text-secondary] mb-2 tracking-widest uppercase">
             College of Engineering, Chengannur
           </p>
-          <p className="text-[--color-text-muted] mb-10 tracking-wider">
+          <p className="text-xs sm:text-sm text-[--color-text-muted] mb-6 md:mb-10 tracking-wider">
             B Batch 1997 &ndash; 2001
           </p>
           <Link
             href="/classmates"
-            className="inline-flex items-center gap-2 bg-[--color-accent] text-[--color-surface] font-semibold px-8 py-3 rounded-full hover:bg-[--color-accent-light] transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,165,116,0.3)]"
+            className="inline-flex items-center gap-2 bg-[--color-accent] text-[--color-surface] font-semibold px-5 py-2.5 sm:px-8 sm:py-3 text-sm sm:text-base rounded-full hover:bg-[--color-accent-light] transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,165,116,0.3)]"
           >
             Enter the Yearbook
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
