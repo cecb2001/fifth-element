@@ -426,7 +426,7 @@ export default function SilverJubileePage() {
               opacity: 0,
             }}
           >
-            25 Years of Friendship
+            The roots grew deep. The branches, far.
           </p>
         </section>
 
