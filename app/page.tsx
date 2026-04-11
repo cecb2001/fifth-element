@@ -597,7 +597,7 @@ export default function SilverJubileePage() {
 
           {/* Footer note */}
           <p className="text-center text-[--color-text-muted] text-xs mt-6 tracking-wide">
-            College of Engineering, Chengannur &middot; 2001 &ndash; 2026
+            College of Engineering, Chengannur &middot; 1997 &ndash; 2001
           </p>
         </section>
       </div>
