@@ -545,7 +545,8 @@ export default function SilverJubileePage() {
               <button
                 type="submit"
                 disabled={loading || success}
-                className="btn-yearbook w-full rounded-full bg-[--color-accent] text-[#08080c] font-semibold py-3.5 text-sm tracking-wide disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                className="btn-yearbook w-full rounded-full font-semibold py-3.5 text-sm tracking-wide disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                style={{ backgroundColor: "#d4a574", color: "#08080c" }}
               >
                 {loading ? (
                   <>
