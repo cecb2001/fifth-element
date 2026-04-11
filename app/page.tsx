@@ -509,7 +509,7 @@ export default function SilverJubileePage() {
                   id="batchPin"
                   type="password"
                   required
-                  inputMode="numeric"
+                  inputMode="text"
                   autoComplete="off"
                   value={pin}
                   onChange={(e) => setPin(e.target.value)}
